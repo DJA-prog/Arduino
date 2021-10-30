@@ -1,0 +1,28 @@
+Speed 0x1D2FEFF6
+Time 0xE0984BB6
+Anion 0x143226DB
+Cool 0xA32AB931
+Wind 0x371A3C86
+ON/OFF 0x39D41DC6
+
+Speed: UP
+Time:  DOWN
+Anion: Right
+Cool:  Left
+Wind:  Esc
+ON/OFF: Enter
+
+Cooler:
+-temp 
+-max
+-min
+-ON/OFF
+-last temp
+
+Lights:
+-brightness
+
+power:
+-types
+-emergency
+-change
