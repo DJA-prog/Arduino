@@ -1,10 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "HomeADSL";//type your ssid
-const char* password = "almirall";//type your password+
-
-//const char* ssid = "Dino-j2core";//type your ssid
-//const char* password = "";//type your password
+const char* ssid = ""; //type your ssid
+const char* password = ""; //type your password
 
 WiFiServer server(80);//Service Port
 String collectD = "";
@@ -12,9 +9,9 @@ String Return = "empty";
 void setup() {
   Serial.begin(9600);
   delay(10);
-    
+
   WiFi.begin(ssid, password);
-  
+
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
   }
